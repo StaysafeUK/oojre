@@ -117,5 +117,15 @@ print(f'£{justin.calculate_salary()}')
 
 """
 Calculate yours!
+----------------
+** Modify def calculate_salary
+prog_lang_bonuses {} **
+
+modify only the % for how competent you think you are from 0.0 - 0.3, create your variable and continue to follow the example below:
+
+bob = DirectDeveloper("Bob Smith", 3, ["java", "python", "go"], False)  # ("name", "years", [comma seperate, your "skills", in prog_lang_bonuses ], true/false for cloud experience) 
+print(bob.get_details())
+print(bob.calculate_holidays(bob.no_of_years))
+print(f'£{bob.calculate_salary()}')
 """
 
