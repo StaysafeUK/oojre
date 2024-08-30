@@ -93,7 +93,7 @@ class DirectDeveloper(HolidayMixin, Employee):
         Method to return direct developer details as a string
         Uses details() method inherited from Employee super class
         """
-        return Employee.details(self) + f'Skills: {", ".join(self.skills)}\nCloud Experience: {self.cloud_experience}\n'
+        return Employee.details(self) + f'Skills: {", ".join(self.skills)}\nCloud Experience: {self.cloud_experience}'
 
 
 # Create an instance of DirectDeveloper
@@ -107,7 +107,7 @@ print(eric.get_details())
 print(eric.calculate_holidays(eric.no_of_years))
 
 # Uses the calculate_salary method from DirectDeveloper
-print(f'£{eric.calculate_salary()}')
+print(f'£{eric.calculate_salary()}\n')
 
 # Create an instance of DirectDeveloper
 justin = DirectDeveloper("JRE", 4, ["java", "python", "go", "bash", "googlecli", "javascript", "html", "css", "php", "laravel", "django", "nodejs", "powershell", "terraform", "ansible"], True)
